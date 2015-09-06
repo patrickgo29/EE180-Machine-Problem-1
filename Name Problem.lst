@@ -1,0 +1,63 @@
+     Assembly listing for: Name Problem.mas
+                Assembled: Sun Sep 06 09:58:44 CST 2015
+
+         |         ORG 0000          
+000 1019 |         LOAD P            
+001 6000 |         OUTPUT            
+002 101A |         LOAD a            
+003 6000 |         OUTPUT            
+004 101B |         LOAD t            
+005 6000 |         OUTPUT            
+006 101C |         LOAD r            
+007 6000 |         OUTPUT            
+008 101D |         LOAD i            
+009 6000 |         OUTPUT            
+00A 101E |         LOAD c            
+00B 6000 |         OUTPUT            
+00C 101F |         LOAD k            
+00D 6000 |         OUTPUT            
+00E 1020 |         LOAD x            
+00F 6000 |         OUTPUT            
+010 1019 |         LOAD P            
+011 4021 |         SUBT sub1         
+012 4022 |         SUBT sub2         
+013 4023 |         SUBT sub3         
+014 3024 |         ADD add1          
+015 2500 |         STORE 500         
+016 6000 |         OUTPUT            
+017 6000 |         OUTPUT            
+018 7000 |         HALT              
+019 0050 |  P      DEC 80            
+01A 0061 |  a      DEC 97            
+01B 0074 |  t      DEC 116           
+01C 0072 |  r      DEC 114           
+01D 0069 |  i      DEC 105           
+01E 0063 |  c      DEC 99            
+01F 006B |  k      DEC 107           
+020 0020 |  x      DEC 32            
+021 0007 |  sub1   DEC 7             
+022 0008 |  sub2   DEC 8             
+023 001E |  sub3   DEC 30            
+024 000F |  add1   DEC 15            
+
+Assembly successful.
+
+         SYMBOL TABLE
+         --------------------------------------------------
+          Symbol | Defined | References 
+         --------+---------+-------------------------------
+          P      |   019   | 000, 010
+          a      |   01A   | 002
+          add1   |   024   | 014
+          c      |   01E   | 00A
+          i      |   01D   | 008
+          k      |   01F   | 00C
+          r      |   01C   | 006
+          sub1   |   021   | 011
+          sub2   |   022   | 012
+          sub3   |   023   | 013
+          t      |   01B   | 004
+          x      |   020   | 00E
+         --------------------------------------------------
+
+

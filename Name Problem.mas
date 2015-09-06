@@ -1,0 +1,38 @@
+org 0000
+load P
+output
+load a
+output
+load t
+output
+load r
+output
+load i
+output
+load c
+output
+load k
+output
+load x
+output
+load P
+subt sub1
+subt sub2
+subt sub3
+add add1
+store 0500
+output 0500
+output 0500
+halt
+P, dec 80
+a, dec 97
+t, dec 116
+r, dec 114
+i, dec 105 
+c, dec 99
+k, dec 107
+x, dec 32
+sub1, dec 7 
+sub2, dec 8
+sub3, dec 30
+add1, dec 15
